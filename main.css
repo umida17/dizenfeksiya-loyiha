@@ -28,6 +28,7 @@
   justify-content: space-between;
   padding-top: 28px;
   margin-bottom: 146px;
+  transition: all 1.7s ease-in-out;
 }
 .header .container .header-container .header-dizenfeksiya {
   display: flex;
@@ -131,6 +132,7 @@ main .section1 .container .section1-container {
 }
 main .section1 .container .section1-container .section1-dizenfeksiya-xizmati {
   width: 500px;
+  transition: 1.4s ease-in-out;
 }
 main .section1 .container .section1-container .section1-dizenfeksiya-xizmati h1 {
   font-weight: 700;
@@ -278,6 +280,7 @@ main .section1 .container .section1-container .section1-dizenfeksiya-xizmati .se
   padding-bottom: 12px;
 }
 main .section1 .container .section1-container .kovit {
+  transition: 1.5s ease-in-out;
   width: 50%;
 }
 main .section2 .container .section2-container {
@@ -291,6 +294,7 @@ main .section2 .container .section2-container h3 {
   letter-spacing: 0%;
   color: #020C31;
   margin-bottom: 32px;
+  transition: 1.6s ease-in-out;
 }
 main .section2 .container .section2-container .section2-Avfzalliklarimiz {
   border-top: 1px solid #CCCCCC;
@@ -301,6 +305,7 @@ main .section2 .container .section2-container .section2-Avfzalliklarimiz {
 }
 main .section2 .container .section2-container .section2-Avfzalliklarimiz .Tezda-xizmat-korsatish {
   margin-top: 32px;
+  transition: 1.8s ease-in-out;
 }
 main .section2 .container .section2-container .section2-Avfzalliklarimiz .Tezda-xizmat-korsatish .img {
   margin-bottom: 25px;
@@ -324,6 +329,7 @@ main .section2 .container .section2-container .section2-Avfzalliklarimiz .Tezda-
 }
 main .section2 .container .section2-container .section2-Avfzalliklarimiz .Yetuk-mutahasislaimiz {
   margin-top: 32px;
+  transition: 1.8s ease-in-out;
 }
 main .section2 .container .section2-container .section2-Avfzalliklarimiz .Yetuk-mutahasislaimiz .img {
   margin-bottom: 25px;
@@ -347,6 +353,7 @@ main .section2 .container .section2-container .section2-Avfzalliklarimiz .Yetuk-
 }
 main .section2 .container .section2-container .section2-Avfzalliklarimiz .Sizga-maqul-vaqtda {
   margin-top: 32px;
+  transition: 1.8s ease-in-out;
 }
 main .section2 .container .section2-container .section2-Avfzalliklarimiz .Sizga-maqul-vaqtda .img {
   margin-bottom: 25px;
@@ -384,6 +391,7 @@ main .section3 .container .section3-container {
 }
 main .section3 .container .section3-container .hashorat {
   margin-top: 60px;
+  transition: 1.9s ease-in-out;
 }
 main .section3 .container .section3-container .hashorat h3 {
   font-weight: 700;
@@ -434,6 +442,9 @@ main .section3 .container .section3-container .hashorat .liquid:hover {
   --t: 0.3s;
   color: #fff;
 }
+main .section4 .container .section-container {
+  transition: 2s ease-in-out;
+}
 main .section4 .container .section-container h4 {
   font-weight: 700;
   font-style: Bold;
@@ -466,6 +477,7 @@ main .section4 .container .section4-cards .card {
   border: 1px solid #F3F6F6;
   background: #F3F6F6;
   border-radius: 12px;
+  transition: 2s ease-in-out;
 }
 main .section4 .container .section4-cards .card h2 {
   padding-top: 48px;
@@ -508,6 +520,7 @@ main .section4 .container .section4-cards .card1 {
   border: 1px solid #F3F6F6;
   background: #F3F6F6;
   border-radius: 12px;
+  transition: 2s ease-in-out;
 }
 main .section4 .container .section4-cards .card1 h2 {
   padding-top: 48px;
@@ -550,6 +563,7 @@ main .section4 .container .section4-cards .card2 {
   border: 1px solid #F3F6F6;
   background: #F3F6F6;
   border-radius: 12px;
+  transition: 2s ease-in-out;
 }
 main .section4 .container .section4-cards .card2 h2 {
   padding-top: 48px;
@@ -599,9 +613,13 @@ main .section5 .container .section5-container {
   display: flex;
   gap: 100px;
 }
+main .section5 .container .section5-container .obraz {
+  transition: 1.7s ease-in-out;
+}
 main .section5 .container .section5-container .section5-bizda {
   width: 642px;
   margin-right: 32px;
+  transition: 1.8s ease-in-out;
 }
 main .section5 .container .section5-container .section5-bizda img {
   margin-top: 52px;
@@ -677,6 +695,7 @@ main .section6 .container .section6-container {
   align-items: center;
   gap: 200px;
   margin-bottom: 110px;
+  transition: 1.8s ease-in-out;
 }
 main .section6 .container .section6-container .faq {
   margin-top: -300px;
@@ -714,6 +733,9 @@ main .section6 .container .section6-container .chiziq .section6-kursda img {
   padding-bottom: 12px;
   padding-right: 12px;
 }
+main .section6 .container .section6-container .chiziq .section6-kursda img:hover {
+  background: #8498fc;
+}
 main .section6 .container .section6-container .chiziq .section6-kursda3 {
   display: flex;
   gap: 430px;
@@ -739,6 +761,9 @@ main .section6 .container .section6-container .chiziq .section6-kursda3 img {
   padding-left: 11px;
   padding-bottom: 12px;
   padding-right: 12px;
+}
+main .section6 .container .section6-container .chiziq .section6-kursda3 img:hover {
+  background: #556eec;
 }
 main .section6 .container .section6-container .chiziq .section6-kursda2 {
   display: flex;
@@ -790,6 +815,7 @@ main .section7 .container .section7-container form {
   border-radius: 8px;
   background: white;
   border: 1px solid white;
+  transition: 1.8s ease-in-out;
 }
 main .section7 .container .section7-container form h3 {
   font-weight: 700;
@@ -847,6 +873,7 @@ main .section7 .container .section7-container form button {
 main .section7 .container .section7-container .section7-ishonch {
   display: flex;
   margin-left: 80px;
+  transition: 1.8s ease-in-out;
 }
 main .section7 .container .section7-container .section7-ishonch h4 {
   font-weight: 500;
@@ -862,4 +889,125 @@ main .section7 .container .section7-container .section7-ishonch h4 {
 main .section7 .container .section7-container .section7-ishonch img {
   width: 390px;
   height: 400px;
+}
+
+footer .container .footer-container {
+  display: flex;
+  align-items: center;
+  gap: 107px;
+  margin-bottom: 52px;
+  transition: 2s ease-in-out;
+}
+footer .container .footer-container .footer-dizenfeksiya-malumotlari {
+  display: flex;
+  gap: 8px;
+  margin-top: -195px;
+}
+footer .container .footer-container .footer-dizenfeksiya-malumotlari h2 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #020C31;
+}
+footer .container .footer-container .footer-lakatsiya .footer-yashnabod {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 30px;
+}
+footer .container .footer-container .footer-lakatsiya .footer-yashnabod i {
+  border: 1px solid #CCCCCC;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  padding-top: 12px;
+}
+footer .container .footer-container .footer-lakatsiya .footer-yashnabod p {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(36, 40, 37, 0.8);
+}
+footer .container .footer-container .footer-lakatsiya .footer-raqam {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  border-bottom: 2px solid silver;
+  width: 900px;
+  padding-bottom: 32px;
+}
+footer .container .footer-container .footer-lakatsiya .footer-raqam i {
+  border: 1px solid #CCCCCC;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  padding-top: 12px;
+}
+footer .container .footer-container .footer-lakatsiya .footer-raqam p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: rgba(36, 40, 37, 0.8);
+}
+footer .container .footer-container .footer-lakatsiya .footer-tarmoqlar {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+footer .container .footer-container .footer-lakatsiya .footer-tarmoqlar .Facebook {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-radius: 30px;
+  background: #F2F2F2;
+  width: 290px;
+  height: 44px;
+  padding-left: 80px;
+}
+footer .container .footer-container .footer-lakatsiya .footer-tarmoqlar .Facebook p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #242825;
+}
+footer .container .footer-container .footer-lakatsiya .footer-tarmoqlar .Instagram {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-radius: 30px;
+  background: #F2F2F2;
+  width: 290px;
+  height: 44px;
+  padding-left: 80px;
+}
+footer .container .footer-container .footer-lakatsiya .footer-tarmoqlar .Instagram p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #242825;
+}
+footer .container .footer-container .footer-lakatsiya .footer-tarmoqlar .Telegram {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-radius: 30px;
+  background: #F2F2F2;
+  width: 290px;
+  height: 44px;
+  padding-left: 80px;
+}
+footer .container .footer-container .footer-lakatsiya .footer-tarmoqlar .Telegram p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #242825;
 }/*# sourceMappingURL=main.css.map */

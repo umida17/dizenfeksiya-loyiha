@@ -27,6 +27,7 @@
             justify-content: space-between;
             padding-top: 28px;
             margin-bottom: 146px;
+            transition: all 1.7s ease-in-out;
             .header-dizenfeksiya{
                 display: flex;
                 align-items: center;
@@ -135,8 +136,10 @@ main{
             justify-content: space-between;
             margin-bottom: 120px;
             gap: 98px;
+           
             .section1-dizenfeksiya-xizmati{
                 width: 500px;
+                  transition: 1.4s ease-in-out;
                 h1{
                     font-weight: 700;
                     font-style: Bold;
@@ -282,6 +285,7 @@ main{
                 }
             }
             .kovit{
+                transition: 1.5s ease-in-out;
                 width: 50%;
             }
         }
@@ -299,6 +303,7 @@ main{
                     letter-spacing: 0%;
                     color: #020C31;
                     margin-bottom: 32px;
+                    transition: 1.6s ease-in-out;
                 }
                 .section2-Avfzalliklarimiz{
                    border-top: 1px solid #CCCCCC;
@@ -308,6 +313,7 @@ main{
                    gap: 80px;
                   .Tezda-xizmat-korsatish{
                     margin-top: 32px;
+                    transition: 1.8s ease-in-out;
                     .img{
                         margin-bottom: 25px;
                     }
@@ -332,6 +338,7 @@ main{
 
                    .Yetuk-mutahasislaimiz{
                     margin-top: 32px;
+                     transition: 1.8s ease-in-out;
                     .img{
                         margin-bottom: 25px;
                     }
@@ -356,6 +363,7 @@ main{
 
                    .Sizga-maqul-vaqtda{
                     margin-top: 32px;
+                    transition: 1.8s ease-in-out;
                     .img{
                         margin-bottom: 25px;
                     }
@@ -396,7 +404,7 @@ main{
                 margin-right: 100px;
                 .hashorat{
                     margin-top: 60px;
-                    
+                    transition: 1.9s ease-in-out;
                     h3{
                     font-weight: 700;
                     font-style: Bold;
@@ -460,6 +468,7 @@ main{
     .section4{
         .container{
             .section-container{
+                transition: 2s ease-in-out;
                 h4{
                     font-weight: 700;
                     font-style: Bold;
@@ -492,6 +501,7 @@ main{
                         border: 1px solid #F3F6F6;
                         background: #F3F6F6;
                         border-radius: 12px;
+                        transition: 2s ease-in-out;
                         h2{
                             padding-top: 48px;
                             padding-left: 32px;
@@ -535,6 +545,7 @@ main{
                         border: 1px solid #F3F6F6;
                         background: #F3F6F6;
                         border-radius: 12px;
+                        transition: 2s ease-in-out;
                         h2{
                             padding-top: 48px;
                             padding-left: 32px;
@@ -578,6 +589,7 @@ main{
                         border: 1px solid #F3F6F6;
                         background: #F3F6F6;
                         border-radius: 12px;
+                        transition: 2s ease-in-out;
                         h2{
                             padding-top: 48px;
                             padding-left: 32px;
@@ -630,9 +642,13 @@ main{
             .section5-container{
                 display: flex;
                 gap: 100px;
+                .obraz{
+                    transition: 1.7s ease-in-out;
+                }
                .section5-bizda{
                 width: 642px;
                 margin-right: 32px;
+                transition: 1.8s ease-in-out;
                img{
                margin-top: 52px;
                margin-bottom: 18px;
@@ -720,6 +736,7 @@ main{
                 align-items: center;
                gap: 200px;
                margin-bottom: 110px;
+               transition: 1.8s ease-in-out;
                 
                .faq{
                 margin-top: -300px;
@@ -761,6 +778,9 @@ main{
                     padding-bottom: 12px;
                     padding-right: 12px;
                 }
+                 img:hover{
+                    background: #8498fc;
+                }
                }
                 .section6-kursda3{
                     display: flex;
@@ -787,6 +807,9 @@ main{
                     padding-left: 11px;
                     padding-bottom: 12px;
                     padding-right: 12px;
+                }
+                img:hover{
+                    background: #556eec;
                 }
                }
 
@@ -858,6 +881,7 @@ main{
                     border-radius: 8px;
                     background: white;
                     border: 1px solid white;
+                    transition: 1.8s ease-in-out;
                     h3{
                         font-weight: 700;
                         font-style: Bold;
@@ -920,6 +944,7 @@ main{
                 .section7-ishonch{
                     display: flex;
                     margin-left: 80px;
+                    transition: 1.8s ease-in-out;
                     h4{
                         font-weight: 500;
                         font-style: Medium;
@@ -944,6 +969,135 @@ main{
 
 footer{
     .container{
-        
+        .footer-container{
+            display: flex;
+            align-items: center;
+           gap: 107px;
+            margin-bottom: 52px;
+            transition: 2s ease-in-out;
+            .footer-dizenfeksiya-malumotlari{
+                display: flex;
+                gap: 8px;
+                margin-top: -195px;
+                h2{
+                     font-weight: 700;
+                    font-style: Bold;
+                    font-size: 20px;
+                     line-height: 24px;
+                    letter-spacing: 0%;
+                    color: #020C31;
+                }
+            }
+
+            .footer-lakatsiya{
+                .footer-yashnabod{
+                    display: flex;
+                    align-items: center;
+                    gap: 18px;
+                    margin-bottom: 30px;
+                    i{
+                        border: 1px solid #CCCCCC;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 8px;
+                        padding-top: 12px; 
+                    }
+                    p{
+                         font-weight: 500;
+                        font-style: Medium;
+                        font-size: 16px;
+                         line-height: 100%;
+                        letter-spacing: 0%;
+                        color: #242825CC;
+                       
+                    }
+                   
+                }
+                .footer-raqam{
+                    display: flex;
+                    align-items: center;
+                    gap: 18px;
+                    border-bottom: 2px solid silver;
+                    width: 900px;
+                     padding-bottom: 32px;
+                     i{
+                        border: 1px solid #CCCCCC;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 8px;
+                        padding-top: 12px; 
+                    }
+                    p{
+                         font-weight: 500;
+                         font-size: 16px;
+                         line-height: 24px;
+                        letter-spacing: 0%;
+                        color: #242825CC;
+                    }
+                }
+
+                .footer-tarmoqlar{
+                    margin-top: 32px;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    .Facebook{
+                        display: flex;
+                        align-items: center;
+                        gap: 16px;
+                        border-radius: 30px;
+                        background: #F2F2F2;
+                        width: 290px;
+                        height: 44px;
+                        padding-left: 80px;
+                        p{
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 24px;
+                            letter-spacing: 0%;
+                            color: #242825;
+                        }
+                        
+                    }
+                   
+
+                      .Instagram{
+                        display: flex;
+                        align-items: center;
+                        gap: 16px;
+                        border-radius: 30px;
+                        background: #F2F2F2;
+                        width: 290px;
+                        height: 44px;
+                        padding-left: 80px;
+                        p{
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 24px;
+                            letter-spacing: 0%;
+                            color: #242825;
+                        }
+                    }
+
+                      .Telegram{
+                        display: flex;
+                        align-items: center;
+                        gap: 16px;
+                        border-radius: 30px;
+                        background: #F2F2F2;
+                        width: 290px;
+                        height: 44px;
+                        padding-left: 80px;
+                        p{
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 24px;
+                            letter-spacing: 0%;
+                            color: #242825;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
