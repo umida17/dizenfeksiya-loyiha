@@ -299,6 +299,7 @@ main .section2 .container .section2-container h3 {
 main .section2 .container .section2-container .section2-Avfzalliklarimiz {
   border-top: 1px solid #CCCCCC;
   display: flex;
+  width: 95%;
   align-items: center;
   justify-content: space-between;
   gap: 80px;
@@ -467,7 +468,6 @@ main .section4 .container .section-container p {
 main .section4 .container .section4-cards {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 16px;
   margin-bottom: 120px;
 }
@@ -710,6 +710,7 @@ main .section6 .container .section6-container .faq h2 {
 main .section6 .container .section6-container .chiziq .section6-kursda {
   display: flex;
   gap: 430px;
+  width: 800px;
   margin-top: 40px;
   padding-bottom: 38px;
   border-bottom: 1px solid #CCCCCC;
@@ -739,6 +740,7 @@ main .section6 .container .section6-container .chiziq .section6-kursda img:hover
 main .section6 .container .section6-container .chiziq .section6-kursda3 {
   display: flex;
   gap: 430px;
+  width: 800px;
   margin-top: 40px;
   padding-bottom: 38px;
   border-bottom: 1px solid #CCCCCC;
@@ -767,10 +769,10 @@ main .section6 .container .section6-container .chiziq .section6-kursda3 img:hove
 }
 main .section6 .container .section6-container .chiziq .section6-kursda2 {
   display: flex;
-  gap: 180px;
+  gap: 140px;
   margin-top: 40px;
   padding-bottom: 38px;
-  width: 870px;
+  width: 820px;
   border-bottom: 1px solid #CCCCCC;
 }
 main .section6 .container .section6-container .chiziq .section6-kursda2 .mazgi h3 {
@@ -937,7 +939,7 @@ footer .container .footer-container .footer-lakatsiya .footer-raqam {
   align-items: center;
   gap: 18px;
   border-bottom: 2px solid silver;
-  width: 900px;
+  width: 800px;
   padding-bottom: 32px;
 }
 footer .container .footer-container .footer-lakatsiya .footer-raqam i {
@@ -1010,4 +1012,82 @@ footer .container .footer-container .footer-lakatsiya .footer-tarmoqlar .Telegra
   line-height: 24px;
   letter-spacing: 0%;
   color: #242825;
+}
+
+@media (max-width: 1189px) {
+  .header .container .header-container {
+    width: 90%;
+  }
+  main .section1 .container .section1-container .section1-dizenfeksiya-xizmati {
+    width: 300px;
+  }
+  main .section1 .container .section1-container .section1-dizenfeksiya-xizmati h1 {
+    font-size: 50px;
+  }
+  main .section1 .container .section1-container .section1-dizenfeksiya-xizmati .dumaloq {
+    width: 50px;
+  }
+  main .section1 .container .section1-container .kovit {
+    width: 48%;
+  }
+  main .section2 .container .section2-container h3 {
+    font-style: 30px;
+  }
+  main .section2 .container .section2-container .section2-Avfzalliklarimiz {
+    flex-wrap: wrap-reverse;
+  }
+  main .section2 .container .section2-container .section2-Avfzalliklarimiz .Tezda-xizmat-korsatish h2 {
+    width: 400px;
+  }
+  main .section2 .container .section2-container .section2-Avfzalliklarimiz .Tezda-xizmat-korsatish p {
+    font-style: 16px;
+  }
+  main .section2 .container .section2-container .section2-Avfzalliklarimiz .Yetuk-mutahasislaimiz h2 {
+    width: 400px;
+  }
+  main .section2 .container .section2-container .section2-Avfzalliklarimiz .Yetuk-mutahasislaimiz p {
+    font-style: 16px;
+  }
+  main .section2 .container .section2-container .section2-Avfzalliklarimiz .Sizga-maqul-vaqtda h2 {
+    width: 400px;
+  }
+  main .section2 .container .section2-container .section2-Avfzalliklarimiz .Sizga-maqul-vaqtda p {
+    font-style: 16px;
+  }
+  main .section3 {
+    width: 97%;
+    margin-left: 5px;
+  }
+  main .section3 .container .section3-container .hashorat h3 {
+    width: 350px;
+    font-size: 30px;
+  }
+  main .section4 .container .section4-cards {
+    flex-wrap: wrap-reverse;
+  }
+  main .section5 {
+    width: 95%;
+  }
+  main .section5 .container .section5-container .obraz {
+    width: 30%;
+  }
+  main .section7 {
+    width: 95%;
+  }
+  main .section7 .container .section7-container form {
+    width: 390px;
+    height: 360px;
+  }
+  main .section7 .container .section7-container form h3 {
+    font-size: 25px;
+  }
+  main .section7 .container .section7-container form .ism {
+    width: 300px;
+  }
+  main .section7 .container .section7-container form .number {
+    width: 300px;
+  }
+  main .section7 .container .section7-container form button {
+    width: 300px;
+  }
 }/*# sourceMappingURL=main.css.map */

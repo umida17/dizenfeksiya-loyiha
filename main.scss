@@ -308,6 +308,7 @@ main{
                 .section2-Avfzalliklarimiz{
                    border-top: 1px solid #CCCCCC;
                    display: flex;
+                   width: 95%;
                    align-items: center;
                    justify-content: space-between;
                    gap: 80px;
@@ -492,7 +493,6 @@ main{
             .section4-cards{
                     display: flex;
                     align-items: center;
-                    justify-content: space-between;
                     gap: 16px;
                     margin-bottom: 120px;
                     .card{
@@ -755,6 +755,7 @@ main{
                  .section6-kursda{
                     display: flex;
                     gap: 430px;
+                    width: 800px;
                 margin-top: 40px;
                 padding-bottom: 38px;
                 border-bottom: 1px solid #CCCCCC;
@@ -785,6 +786,7 @@ main{
                 .section6-kursda3{
                     display: flex;
                     gap: 430px;
+                    width: 800px;
                 margin-top: 40px;
                 padding-bottom: 38px;
                 border-bottom: 1px solid #CCCCCC;
@@ -815,10 +817,10 @@ main{
 
                 .section6-kursda2{
                 display: flex;
-                gap: 180px;
+                gap: 140px;
                 margin-top: 40px;
                 padding-bottom: 38px;
-                width: 870px;
+                width: 820px;
                 border-bottom: 1px solid #CCCCCC;
                 .mazgi{
 
@@ -1018,7 +1020,7 @@ footer{
                     align-items: center;
                     gap: 18px;
                     border-bottom: 2px solid silver;
-                    width: 900px;
+                    width: 800px;
                      padding-bottom: 32px;
                      i{
                         border: 1px solid #CCCCCC;
@@ -1095,6 +1097,131 @@ footer{
                             letter-spacing: 0%;
                             color: #242825;
                         }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width:1189px){
+    .header{
+        .container{
+            .header-container{
+              width: 90%;
+            }
+        }
+    }
+    main{
+        .section1{
+            .container{
+                .section1-container{
+                    .section1-dizenfeksiya-xizmati{
+                        width: 300px;
+                        h1{
+                            font-size: 50px;
+                        }
+                        .dumaloq{
+                            width: 50px;
+                        }
+                    }
+                    .kovit{
+                        width: 48%;
+                    }
+                }
+            }
+        }
+        .section2{
+            .container{
+                .section2-container{
+                    h3{
+                        font-style: 30px;
+                    }
+                    .section2-Avfzalliklarimiz{
+                        flex-wrap: wrap-reverse;
+                        .Tezda-xizmat-korsatish{
+                           h2{
+                            width: 400px;
+                           }
+                            p{
+                            font-style: 16px;
+                           }
+                        }
+                        .Yetuk-mutahasislaimiz{
+                              h2{
+                             width: 400px;
+                           }
+                            p{
+                            font-style: 16px;
+                           }
+                        }
+                        .Sizga-maqul-vaqtda{
+                              h2{
+                           width: 400px;
+                           }
+                           p{
+                            font-style: 16px;
+                           }
+                        }
+                    }
+                }
+            }
+        }
+        .section3{
+            width: 97%;
+            margin-left: 5px;
+            .container{
+                .section3-container{
+                    .hashorat{
+                    h3{
+                        width: 350px;
+                        font-size: 30px;
+                    }
+                    }
+                }
+            }
+        }
+        .section4{
+            .container{
+                    .section4-cards{
+                       
+                        flex-wrap: wrap-reverse;
+                    }
+                
+            }
+        }
+        .section5{
+            width: 95%;
+            .container{
+                .section5-container{
+                    .obraz{
+                        width: 30%;
+                    }
+                }
+            }
+        }
+
+        .section7{
+            width: 95%;
+            .container{
+                .section7-container{
+                    form{
+                        width: 390px;
+                        height: 360px;
+                        h3{
+                            font-size: 25px;
+                        }
+                        .ism{
+                            width: 300px;
+                        }
+                        .number{
+                            width: 300px;
+                        }
+                        button{
+                            width: 300px;
+                        }
+
                     }
                 }
             }
